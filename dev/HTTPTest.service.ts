@@ -8,7 +8,13 @@ export class HTTPTestService {
 	constructor (private _http: Http) {}
 	
 	getBirds() {
-		return this._http.get('https://biiirds-d663d.firebaseio.com/Birds.json')
+		return this._http.get('https://biiirds-d663d.firebaseio.com/birds.json')
 		.map(res => res.json());
+	}
+
+	getBirds2() {
+		return this._http.get('https://biiirds-d663d.firebaseio.com/birds.json').map(
+		(res) => res.json()
+		);
 	}
 }

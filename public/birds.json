@@ -1,0 +1,22 @@
+{"birds": [
+
+	{"name": "Punky", "color": "Blue"}, 
+
+	{"name": "Spaghetti", "color": "Green"},
+
+	{"name": "Gandalf", "color": "Silver"}
+			] ,
+
+
+
+"nestboxes": [
+
+	{"name": "Chateau d'oiseaux", "position" : "Top left"},
+
+	{"name": "Ootori Castle", "position" : "Top center"},
+
+	{"name": "Eigenlijk heel gezellig", "position" : "Top right"}
+
+]
+
+}

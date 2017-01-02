@@ -5,8 +5,6 @@ import {HTTPTestComponent} from "./HTTPTest.component";
 @Component({
     selector: 'my-app',
     template: `
-        <h1>Angular 2 Boilerplate</h1>
-        <p>blablabl</p>
         <bird></bird>
         <div class = "main">
         <HTTPTest></HTTPTest>
