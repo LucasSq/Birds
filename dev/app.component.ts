@@ -9,7 +9,7 @@ import {HTTPTestComponent} from "./HTTPTest.component";
         <p>blablabl</p>
         <bird></bird>
         <div class = "main">
-        	<HTTPTest></HTTPTest>
+        <HTTPTest></HTTPTest>
     `,
     directives: [BirdComponent, HTTPTestComponent]
 })

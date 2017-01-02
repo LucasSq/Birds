@@ -18,7 +18,7 @@ export class HTTPTestComponent{
 	constructor (private _httpService: HTTPTestService) {}
 
 	onTestGet() {
-		this._httpService.getBird()
+		this._httpService.getBirds()
 		.subscribe(
 			data => this.getData = JSON.stringify(data),
 			error => alert(error),
